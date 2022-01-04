@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-u(#qhdgt4^76$1eqbf7ap3@@=%rv2s)zyuo+_+zjj)w-59id_7'
+SECRET_KEY = 'django-insecure-=fb@h#%8*t+61c%e)iv3vcjg=!xuphja1)kcurz#w=s1cux$@v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'project'   
+    'products'   
 ]
 
 MIDDLEWARE = [
@@ -132,5 +132,4 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
 CORS_ORIGIN_ALLOW_ALL = True
